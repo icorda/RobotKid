@@ -1,0 +1,26 @@
+begin
+  up 2
+  right 1
+  up 3
+  left 1
+  interact
+  up 1
+  interact
+  left 2
+  down 1
+  interact
+  left 2
+  down 2
+  left 2
+  down 1
+  interact
+  up 1
+  right 2
+  down 1
+  right 2
+  interact
+  down 2
+  right 2
+  up 2
+  right 3
+end

@@ -1,0 +1,25 @@
+Program:
+  'begin'
+    commands*=Command
+  'end'
+;
+
+Command:
+  MoveCommand | InteractCommand
+;
+
+MoveCommand:
+  direction=Direction (steps=INT)?
+;
+
+InteractCommand:
+	type='interact'
+;
+
+Direction:
+  "up"|"down"|"left"|"right"
+;
+
+Comment:
+  /\/\/.*$/
+;

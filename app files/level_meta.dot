@@ -1,0 +1,44 @@
+
+    digraph xtext {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node[
+        shape=record,
+        style=filled,
+        fillcolor=aliceblue
+    ]
+    edge[dir=black,arrowtail=empty]
+
+
+33703280[ label="{Comment|\/\/.*$}"]
+
+33702832[ label="{Element|robot_kid\|movable_block\|unmovable_block\|switch\|door\|mine}"]
+
+33701936[ label="{Command|PlaceElement}"]
+
+33702384[ label="{PlaceElement|+element:Element\l+x:INT\l+y:INT\l}"]
+
+25773872[ label="{Program|commands:list[Command]\l}"]
+
+25762032[ label="{BOOL|}"]
+
+25772080[ label="{BASETYPE|}"]
+25772080 -> 25763376 [dir=back]
+25772080 -> 25762032 [dir=back]
+25772080 -> 25761136 [dir=back]
+25772080 -> 25761584 [dir=back]
+
+25762480[ label="{INT|}"]
+
+25761584[ label="{STRING|}"]
+
+25763376[ label="{NUMBER|}"]
+25763376 -> 25762928 [dir=back]
+25763376 -> 25762480 [dir=back]
+
+25761136[ label="{ID|}"]
+
+25762928[ label="{FLOAT|}"]
+
+
+}

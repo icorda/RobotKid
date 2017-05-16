@@ -1,0 +1,63 @@
+
+    digraph xtext {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node[
+        shape=record,
+        style=filled,
+        fillcolor=aliceblue
+    ]
+    edge[dir=black,arrowtail=empty]
+
+
+89984752 -> 39148592 [label="commands:0" arrowtail=diamond dir=both]
+39148592[label="{:MoveCommand|+direction:str=up\l+steps:int=2\l}"]
+89984752 -> 39148944 [label="commands:1" arrowtail=diamond dir=both]
+39148944[label="{:MoveCommand|+direction:str=right\l+steps:int=1\l}"]
+89984752 -> 39148752 [label="commands:2" arrowtail=diamond dir=both]
+39148752[label="{:MoveCommand|+direction:str=up\l+steps:int=3\l}"]
+89984752 -> 39148848 [label="commands:3" arrowtail=diamond dir=both]
+39148848[label="{:MoveCommand|+direction:str=left\l+steps:int=1\l}"]
+89984752 -> 39148880 [label="commands:4" arrowtail=diamond dir=both]
+39148880[label="{:InteractCommand|+type:str=interact\l}"]
+89984752 -> 39148784 [label="commands:5" arrowtail=diamond dir=both]
+39148784[label="{:MoveCommand|+direction:str=up\l+steps:int=1\l}"]
+89984752 -> 39148496 [label="commands:6" arrowtail=diamond dir=both]
+39148496[label="{:InteractCommand|+type:str=interact\l}"]
+89984752 -> 39146352 [label="commands:7" arrowtail=diamond dir=both]
+39146352[label="{:MoveCommand|+direction:str=left\l+steps:int=2\l}"]
+89984752 -> 39148976 [label="commands:8" arrowtail=diamond dir=both]
+39148976[label="{:MoveCommand|+direction:str=down\l+steps:int=1\l}"]
+89984752 -> 39148560 [label="commands:9" arrowtail=diamond dir=both]
+39148560[label="{:InteractCommand|+type:str=interact\l}"]
+89984752 -> 39148304 [label="commands:10" arrowtail=diamond dir=both]
+39148304[label="{:MoveCommand|+direction:str=left\l+steps:int=2\l}"]
+89984752 -> 39148464 [label="commands:11" arrowtail=diamond dir=both]
+39148464[label="{:MoveCommand|+direction:str=down\l+steps:int=2\l}"]
+89984752 -> 39149520 [label="commands:12" arrowtail=diamond dir=both]
+39149520[label="{:MoveCommand|+direction:str=left\l+steps:int=2\l}"]
+89984752 -> 39148432 [label="commands:13" arrowtail=diamond dir=both]
+39148432[label="{:MoveCommand|+direction:str=down\l+steps:int=1\l}"]
+89984752 -> 39146288 [label="commands:14" arrowtail=diamond dir=both]
+39146288[label="{:InteractCommand|+type:str=interact\l}"]
+89984752 -> 39148016 [label="commands:15" arrowtail=diamond dir=both]
+39148016[label="{:MoveCommand|+direction:str=up\l+steps:int=1\l}"]
+89984752 -> 39147952 [label="commands:16" arrowtail=diamond dir=both]
+39147952[label="{:MoveCommand|+direction:str=right\l+steps:int=2\l}"]
+89984752 -> 39147984 [label="commands:17" arrowtail=diamond dir=both]
+39147984[label="{:MoveCommand|+direction:str=down\l+steps:int=1\l}"]
+89984752 -> 39147888 [label="commands:18" arrowtail=diamond dir=both]
+39147888[label="{:MoveCommand|+direction:str=right\l+steps:int=2\l}"]
+89984752 -> 39147856 [label="commands:19" arrowtail=diamond dir=both]
+39147856[label="{:InteractCommand|+type:str=interact\l}"]
+89984752 -> 39147920 [label="commands:20" arrowtail=diamond dir=both]
+39147920[label="{:MoveCommand|+direction:str=down\l+steps:int=2\l}"]
+89984752 -> 39148368 [label="commands:21" arrowtail=diamond dir=both]
+39148368[label="{:MoveCommand|+direction:str=right\l+steps:int=2\l}"]
+89984752 -> 39148048 [label="commands:22" arrowtail=diamond dir=both]
+39148048[label="{:MoveCommand|+direction:str=up\l+steps:int=2\l}"]
+89984752 -> 39148656 [label="commands:23" arrowtail=diamond dir=both]
+39148656[label="{:MoveCommand|+direction:str=right\l+steps:int=3\l}"]
+89984752[label="{:Program|}"]
+
+}

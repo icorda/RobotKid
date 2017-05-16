@@ -1,0 +1,21 @@
+Program:
+  'begin'
+    commands*=Command
+  'end'
+;
+
+Command:
+  PlaceElement
+;
+
+PlaceElement:
+  element = Element (x=INT ',' y=INT)
+;
+
+Element:
+  "robot_kid"|"movable_block"|"unmovable_block"|"switch"|"door"|"mine"
+;
+
+Comment:
+  /\/\/.*$/
+;

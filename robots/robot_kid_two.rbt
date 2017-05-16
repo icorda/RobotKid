@@ -1,0 +1,8 @@
+begin
+  right 2
+  up 1
+  interact
+  right 1
+  interact
+  right 1
+end
